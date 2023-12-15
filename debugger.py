@@ -20,6 +20,6 @@ def canyoubaidu(func):
         except Exception as e:
             error_msg = traceback.format_exc().splitlines()[-1]
             print(f"Error: {error_msg}")
-            webbrowser.open(f"https://baidu.leeay.com/?s={error_msg}")
+            webbrowser.open(f"https://buhuibaidu.me/?s={error_msg}")
             raise
     return wrapper
